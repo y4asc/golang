@@ -9,4 +9,10 @@ func main(){
 	fmt.Println("a divisão é:", a / b)
 	fmt.Println("a multiplicação é:", a * b)
 	fmt.Println("o resto da divisão:", a % b)
-}
+
+	a+=1
+	fmt.Println("incrementa a", a)
+
+	if a > 0 && b > 0 {
+		fmt.Println("numeros positivos")
+} }
